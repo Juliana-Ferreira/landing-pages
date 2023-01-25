@@ -1,8 +1,8 @@
-# <p align="center"> Projetos Landing Pages </p>
+# <p align="center"> :computer: Projetos Landing Pages </p>
 
 :small_blue_diamond: Coleção de projetos desenvolvidos com HTML, CSS e JS.
 
-## <p align="center"> Balle Bot </p>
+## <p align="center"> :round_pushpin: Balle Bot </p>
 
 ![Página da Balle Bot](https://user-images.githubusercontent.com/61024005/214605389-8e23cdba-a79f-46cf-bb37-78a314fc5418.jpg)
 
@@ -19,5 +19,5 @@ Após baixar a pasta do projeto, basta dar duplo clique no arquivo <em>index.htm
 #### :book: Referências para o desenvolvimento do projeto
 
 - :link: <a href="https://youtu.be/llF6vD-RljE">``Tutorial no canal da Rafaella Ballerini``</a>
-- :link: <a href="<https://www.figma.com/file/myqP66iQwzjwjrIAJyyrip/BalleBot?node-id=0%3A1&t=kyQY67qVUWdcNcxs-0>">``Design do Figma``</a>
-- :link: <a href="<https://css-tricks.com/snippets/css/a-guide-to-flexbox/>">``Guia de CSS Flexbox``</a>
+- :link: <a href="https://www.figma.com/file/myqP66iQwzjwjrIAJyyrip/BalleBot?node-id=0%3A1&t=kyQY67qVUWdcNcxs-0">``Design do Figma``</a>
+- :link: <a href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/">``Guia de CSS Flexbox``</a>
