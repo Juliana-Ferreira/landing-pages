@@ -127,6 +127,40 @@ body {
     color: #272626;
 }
 
+/* Sobre a empresa */
+.about-content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 254px;
+}
+
+.about-startdev {
+    padding: 45px;
+}
+
+.about-startdev h3 {
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    color: #000000;
+    padding-bottom: 32px;
+}
+
+.about-startdev p {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #000000;
+    line-height: 28px;
+}
+
+.about-startdev p strong {
+    font-weight: 700;
+    color: #4B4EFC;
+}
+
 /* Rodapé da página */
 
 .page-footer {
