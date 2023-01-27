@@ -5,3 +5,56 @@
 body {
     background: #F5F5F5;;
 }
+
+/* Cabeçalho da página */
+.page-header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    background: #F9FAFB;
+    padding: 25px;
+}
+
+.nav-links, .login-register {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 32px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    color: #272626;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.nav-links a:hover {
+    color: #000000;
+}
+
+.login {
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    color: #4B4EFC;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.login:hover {
+    color: #1d21fc;
+}
+
+.register {
+    background-color: #4B4EFC;
+    border: none;
+    border-radius: 5px;
+    padding: 13px 16px;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    color: #F9FAFB;
+    cursor: pointer;
+}
