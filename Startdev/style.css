@@ -1,9 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
 
-/* font-family: 'Inter', sans-serif; */
-
 body {
-    background: #F5F5F5;;
+    background: #F5F5F5;
+    box-sizing: border-box;
 }
 
 /* Cabeçalho da página */
@@ -57,4 +56,88 @@ body {
     font-size: 16px;
     color: #F9FAFB;
     cursor: pointer;
+}
+
+/* Conteúdo principal */
+.main-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding: 120px 176px;
+}
+
+.main-content, .main-content-info-item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.main-content-left h1 {
+    margin-right: 250px;
+    margin-bottom: 88px;
+    line-height: 1.5;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 60px;
+    color: #000000;
+}
+
+.main-content-left h1:after {
+    content:attr(data-text);
+	color:#4B4EFC;
+	transform:translateX(-100%);
+	position:absolute;
+}
+
+.main-content-info {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 32px;
+}
+
+.main-content-info-item figure {
+    display: flex;
+    align-items: center;
+    height: 48px;
+    width: 48px;
+    margin-right: 24px;
+    border-radius: 6px;
+    background-color: #C9CAFF;
+}
+
+.main-content-info-item figure img {
+    margin: 0 auto;
+}
+
+.main-content-info-item p {
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    color: #272626;
+}
+
+.main-content-info-item p strong{
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    color: #272626;
+}
+
+/* Rodapé da página */
+
+.page-footer {
+    display: block;
+    margin: 0 auto;
+    padding: 60px 0;
+}
+
+.page-footer p {
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+    font-size: 16px;
+    color: #000000;
 }
