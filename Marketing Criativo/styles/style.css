@@ -5,3 +5,35 @@ body {
     max-width: 1200px;
     margin: 0 auto;
 }
+
+/* Cabeçalho */
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+#title {
+    flex-direction: column;
+    line-height: 10px;
+}
+
+#title h1 {
+    font-weight: 200;
+}
+
+nav a{
+    margin: 0 20px;
+    text-decoration: none;
+}
+
+/* Conteúdo principal */
+main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+}
