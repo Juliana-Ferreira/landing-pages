@@ -27,6 +27,23 @@ header {
 nav a{
     margin: 0 20px;
     text-decoration: none;
+    color: white;
+}
+
+nav a:hover {
+    transition: 0.3s all;
+    color: rgb(132, 14, 201);
+}
+
+nav a:last-child {
+    border: 2px solid rgb(132, 14, 201);
+    border-radius: 15px;
+    padding: 10px;
+}
+
+nav a:last-child:hover {
+    background-color: rgb(132, 14, 201);
+    color: white;
 }
 
 /* Conteúdo principal */
@@ -34,6 +51,53 @@ main {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    align-items: center;
     margin-top: 50px;
+}
+
+aside h2 {
+    font-family: poppinsmedium;
+    font-size: 56px;
+    line-height: 10px;
+}
+
+aside h2 span {
+    color: rgb(132, 14, 201);
+}
+
+aside p {
+    font-family: poppinslight;
+    line-height: 20px;
+    max-width: 500px;
+}
+
+aside form {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+
+aside form input {
+    margin-top: 20px;
+    height: 20px;
+    padding: 15px;
+    border-radius: 20px;
+    border: none;
+    font-size: 16px;
+}
+
+aside form [type="submit"] {
+    height: 50px;
+    width: 50%;
+    background-color: rgb(132, 14, 201);
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+aside form [type="submit"]:hover {
+    border: 2px solid white;
+}
+
+article img {
+    width: 600px;
 }
