@@ -1,0 +1,50 @@
+@media screen and (max-width: 760px) {
+
+    header, main {
+        flex-direction: column;
+    }
+
+    #title h1 {
+        text-align: center;
+    }
+
+    nav {
+        display: flex;
+        flex-flow: wrap;
+        align-items: center;
+        margin: 0 12px;
+    }
+
+    nav a:last-child {
+        padding: 5px;
+    }
+
+    aside {
+        text-align: center;
+        margin: 0 auto;
+        width: 90%;
+    }
+
+    aside h2 {
+        font-size: 34px;
+    }
+
+    aside p {
+        font-size: 14px;
+        max-width: 760px;
+    }
+
+    aside form {
+        margin: 0 auto;
+        width: 100%;
+    }
+
+    aside form input {
+        width: 80%;
+        align-self: center;
+    }
+
+    article img {
+        display: none;
+    }
+}
