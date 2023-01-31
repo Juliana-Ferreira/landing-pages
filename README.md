@@ -35,3 +35,22 @@ Você pode <a href="https://github.com/Juliana-Ferreira/landing-pages/tree/main/
 ### :sparkles: Abrir e rodar o projeto
 
 Após baixar a pasta do projeto, basta dar duplo clique no arquivo <em>index.html</em>, ou selecionar o mesmo arquivo com o botão direito do mouse e escolher a opção "Abrir". O site deve carregar no navegador padrão da máquina.
+
+## <p align="center"> :round_pushpin: Marketing Criativo </p>
+
+![marketing-criativo](https://user-images.githubusercontent.com/61024005/215850868-1837c41b-aa21-4927-843a-4603d76575f6.jpg)
+
+O projeto foi desenvolvido utilizando as linguagens HTML e CSS e a IDE Visual Studio Code. O desenvolvimento foi feito seguindo o <a href="https://youtu.be/edDCEK5QWE8">vídeo de tutorial</a> do canal Alexandre Saints. O projeto abordou a responsividade do design para dispositivos mobile e desktop.
+
+### :open_file_folder: Acesso ao projeto
+
+Você pode <a href="https://github.com/Juliana-Ferreira/landing-pages/tree/main/Marketing%20Criativo">acessar o repositório do projeto aqui</a>.
+
+### :sparkles: Abrir e rodar o projeto
+
+Após baixar a pasta do projeto, basta dar duplo clique no arquivo <em>index.html</em>, ou selecionar o mesmo arquivo com o botão direito do mouse e escolher a opção "Abrir". O site deve carregar no navegador padrão da máquina.
+
+#### :book: Referências para o desenvolvimento do projeto
+
+- :link: <a href="https://youtu.be/edDCEK5QWE8">``Tutorial no canal do Alexandre Saints``</a>
+- :link: <a href="https://github.com/alexandresaints/landing-page-tutorial">``Repositório com o material do projeto``</a>
