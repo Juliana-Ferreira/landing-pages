@@ -12,7 +12,8 @@
         display: flex;
         flex-flow: wrap;
         align-items: center;
-        margin: 0 12px;
+        justify-content: center;
+        margin: 0 auto;
     }
 
     nav a:last-child {
@@ -46,5 +47,60 @@
 
     article img {
         display: none;
+    }
+}
+
+@media screen and (max-width: 960px) {
+    nav a{
+        margin: 0 5px;
+    }
+
+    aside {
+        margin-left: 15px;
+    }
+
+    aside h2 {
+        font-size: 40px;
+        line-height: 1;
+    }
+
+    aside p {
+        font-size: 14px;
+    }
+
+    aside form input {
+        margin-top: 15px;
+        height: 14px;
+        padding: 10px;
+        font-size: 14px;
+    }
+    
+    aside form [type="submit"] {
+        height: 40px;
+    }
+
+    article img {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 1240px) {
+    aside {
+        margin-left: 15px;
+    }
+
+    aside h2 {
+        font-size: 48px;
+        line-height: 0.8;
+    }
+
+    article {
+        display: grid;
+        place-items: center;
+        margin-right: 10px;
+    }
+
+    article img {
+        width: 100%;
     }
 }
