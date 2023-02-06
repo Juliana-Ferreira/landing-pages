@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/svg" href="IMG/logo.svg"/>
     <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="media.css">
     <link rel="stylesheet" href="style.css">
     <title>Startdev - Codifique seu caminho para o sucesso</title>
 </head>
@@ -14,11 +15,13 @@
         <img src="IMG/logo.svg" alt="Logo Startdev">
 
         <nav class="nav-links">
-            <a href="index.html">Home</a>
-            <a href="#sobre">Sobre</a>
-            <a>Cursos</a>
-            <a>Blog</a>
-            <a>Contato</a>
+            <ul class="nav-items">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li>Cursos</li>
+                <li>Blog</li>
+                <li>Contato</li>
+            </ul>
         </nav>
 
         <div class="login-register">
@@ -33,39 +36,21 @@
                 <h1 data-text="Startdev">Codifique seu caminho para o sucesso com Startdev</h1>
 
                 <div class="main-content-info">
-                    <div class="main-content-info-item">
-                        <figure>
-                            <img src="IMG/icon-devs.svg" alt="">
-                        </figure>
-
-                        <p><strong>200+</strong> <br> Novos Devs</p>
-                    </div>
-
-                    <div class="main-content-info-item">
-                        <figure>
-                            <img src="IMG/icon-projetos.svg" alt="">
-                        </figure>
-
-                        <p><strong>400+</strong> <br> Projetos Finalizados</p>
-                    </div>
-
-                    <div class="main-content-info-item">
-                        <figure>
-                            <img src="IMG/icon-download.svg" alt="">
-                        </figure>
-
-                        <p><strong>800+</strong> <br> Download no APP</p>
-                    </div>
+                    <img src="IMG/novos-devs.svg" alt="200+ Novos Devs">
+                    <img src="IMG/projetos.svg" alt="400+ Projetos Finalizados">
+                    <img src="IMG/app-download.svg" alt="800+ Download no APP">
                 </div>
             </div>
 
-            <img src="IMG/laptop1.svg" alt="Imagem de um notebook semiaberto.">
+            <figure>
+                <img src="IMG/laptop1.svg" alt="Imagem de um notebook semiaberto.">
+            </figure>
         </section>
 
-        <section class="about-content">
+        <section id="sobre" class="about-content">
             <img src="IMG/laptop2.svg" alt="">
 
-            <div id="sobre" class="about-startdev">
+            <div class="about-startdev">
                 <h3>Sobre a nossa Empresa</h3>
                 <p>
                     <strong>Startdev</strong> é uma plataforma de educação online que fornece um currículo abrangente para programadores iniciantes. Oferecemos uma ampla variedade de cursos de programação, incluindo Python, JavaScript, Ruby e SQL.
